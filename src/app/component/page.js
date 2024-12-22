@@ -25,9 +25,9 @@ export default function Navbar(){
             </div>
             <div className="flex-1">
                 <div className="flex flex-1 gap-4">
-                <Image src={group28}/>
-                <Image src={group30}/>
-                <Image src={group29}/>
+                <Image src={group28} alt="group28"/>
+                <Image src={group30} alt="group30"/>
+                <Image src={group29} alt="group29"/>
                 </div>
             </div>
             
