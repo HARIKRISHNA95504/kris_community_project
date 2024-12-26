@@ -4,7 +4,7 @@ export default function LoginPage() {
     return (
         <main className="font-sans min-h-scrreen flex ">
             <div className=" grid grid-col-1 md:grid-cols-2 w-full justify-items-center ">
-                <div className="bg-orange-600 w-full px-5 ">
+                <div className="bg-white w-full px-5 ">
                     <Image src={logo} alt="logo" className="w-3/12" />
                     <div className="mt-8 ml-8">
                         <div>
@@ -37,16 +37,16 @@ export default function LoginPage() {
                            <input type="checkbox" name="remember" id="remember"/>
                            <label htmlFor="remember" className="text-gray-500 text-lg">Remember me</label>
                         </div>
-                        <p className="text-lg text-blue-600 font-semibold">Reset Password?</p>
+                        <p className="text-lg text-blue-950 font-semibold">Reset Password?</p>
                         <div className="">
                             <button className="border-none rounded text-white bg-blue-600 text-center w-full py-3 mt-5">Sign In</button>
                         </div>
                     </div>
                     
-                    <p className="text-center text-yellow-400 text-lg font-semibold p-5">Don’t have an account yet? Join KRIS today.</p>
+                    <p className="text-center text-gray-500 text-lg  p-5">Don’t have an account yet? <span className="text-blue-950 font-semibold">Join KRIS today.</span></p>
                 </div>
-                <div className="min-h-screen">
-                   <h1 className="text-pink-600 text-5xl px-9 mt-16 md:mt-80  font-semibold ">Manage all HR Operations from the comfort of your home</h1>
+                <div className="min-h-screen bg-blue-950 ">
+                   <h1 className="text-white text-5xl px-9 mt-16 md:mt-80  font-semibold  ">Manage all <span className="text-yellow-500">HR Operations </span>from the comfort of your home</h1>
                 </div>
             </div>
         </main>
